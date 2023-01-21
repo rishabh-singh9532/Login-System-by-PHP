@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Nunito:ital,wght@0,400;0,600;0,800;1,400&family=Poppins:wght@500;600&family=Rubik:wght@300;400;500;600&display=swap');
+
+:root{
+    --yellow:#fed330;
+    --red:#e74c3c;
+    --white:#fff;
+    --black:#222;
+    --light-color:#777;
+    --border:.2rem solid var(--black) ;
+}
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #222;
+}
+
+.container{
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.container h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.container input{
+    margin-top: 1rem;
+    width: 100%;
+    height: 2.5rem;
+    border-radius: .5rem;
+
+}
+
+.container form .btn{
+    background-color: #1D446E;
+    color: #fff;
+    padding: 1rem 2.5rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+
+}
+.container p{
+    font-size: 1.8rem;
+    color: #fff;
+}
+.container p a{
+    color: var(--yellow);
+}
+.container .icons #user-btn{
+color: #fff;
+font-size: 12rem;
+margin-top: 2rem;
+margin-bottom: 2rem;
+}
+.container .detail{
+    color: var(--yellow);
+    /* margin-bottom: 2rem; */
+}
+.container .rbtn{
+    background-color: var(--red);
+    color: var(--white);
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    border-radius: .5rem;
+}
